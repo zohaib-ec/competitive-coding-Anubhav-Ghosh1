@@ -1,0 +1,54 @@
+{
+  "tests": [
+    {
+      "name": "Test1",
+      "setup": "",
+      "run": "gcc TwoFourWheeler.c -o TwoFourWheeler && ./TwoFourWheeler",
+      "input": "200 540",
+      "output": "130 70",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 2
+    },
+    {
+      "name": "Test2",
+      "setup": "",
+      "run": "gcc TwoFourWheeler.c -o TwoFourWheeler && ./TwoFourWheeler",
+      "input": "444 1284",
+      "output": "246 198",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 2
+    },
+    {
+      "name": "Test3",
+      "setup": "",
+      "run": "gcc TwoFourWheeler.c -o TwoFourWheeler && ./TwoFourWheeler",
+      "input": "27 84",
+      "output": "12 15",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 2
+    },
+    {
+      "name": "Test4",
+      "setup": "",
+      "run": "gcc TwoFourWheeler.c -o TwoFourWheeler && ./TwoFourWheeler",
+      "input": "20 60",
+      "output": "10 10",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 2
+    },
+    {
+      "name": "Test5",
+      "setup": "",
+      "run": "gcc TwoFourWheeler.c -o TwoFourWheeler && ./TwoFourWheeler",
+      "input": "50 140",
+      "output": "30 20",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 2
+    }
+  ]
+}
